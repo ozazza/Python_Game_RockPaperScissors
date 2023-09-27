@@ -1,5 +1,7 @@
 import random
 
+from colorama import Fore
+
 rock = 'Rock'
 paper = 'Paper'
 scissors = 'Scissors'
@@ -27,15 +29,15 @@ elif computer_random_move == 2:
 else:
     computer_move = scissors
 
-print(f'The computer chooses {computer_move}.')
+print(f'The computer chooses {Fore.LIGHTMAGENTA_EX + computer_move}')
 
 if player_move == computer_move or \
         player_move == computer_move or \
         player_move == computer_move:
-    print('Draw')
+    print(Fore.BLUE + 'Draw')
 elif player_move == rock and computer_move == scissors or \
         player_move == paper and computer_move == rock or \
         player_move == scissors and computer_move == paper:
-    print('You win')
+    print(Fore.GREEN + 'You win')
 else:
-    print('You lose')
+    print(Fore.RED + 'You lose')
