@@ -13,8 +13,5 @@ The winner is the player whose choice exceeds that of his opponent.
 If both players choose the same option, the result of the game is a "tie".
 
 #### Play
-![image](https://github.com/ozazza/Python_Game_RockPaperScissors/assets/4469514/ef5c25d7-0fa0-48ed-9af0-66baeb018fa6)
-
-[![image](https://github.com/ozazza/Python_Game_RockPaperScissors/assets/4469514/ef5c25d7-0fa0-48ed-9af0-66baeb018fa6)](https://replit.com/@TeodoraVacheva/RockPaperScissors){:target="_blank" rel="noopener"}
 
 <a href="https://replit.com/@TeodoraVacheva/RockPaperScissors" target="_blank">Rock - Paper - Scissors</a>
